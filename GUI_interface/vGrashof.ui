@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>bg</class>
+ <widget class="QMainWindow" name="bg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>598</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="crankRocker" native="true">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>60</y>
+      <width>337</width>
+      <height>193</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border:3px solid black;</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="doubleCrank" native="true">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>60</y>
+      <width>337</width>
+      <height>193</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border:3px solid black;</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="doubleRocker" native="true">
+    <property name="geometry">
+     <rect>
+      <x>234</x>
+      <y>330</y>
+      <width>337</width>
+      <height>193</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border:3px solid black;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>20</y>
+      <width>161</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;MS Reference Sans Serif&quot;;
+color:white;</string>
+    </property>
+    <property name="text">
+     <string>Double Crank</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>290</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;MS Reference Sans Serif&quot;;
+color:white;</string>
+    </property>
+    <property name="text">
+     <string>Double Rocker</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_1">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>20</y>
+      <width>161</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;MS Reference Sans Serif&quot;;
+color:white;</string>
+    </property>
+    <property name="text">
+     <string>Crank Rocker</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="playB1">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>280</y>
+      <width>40</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: black;</string>
+    </property>
+    <property name="text">
+     <string>►</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="stopB1">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>280</y>
+      <width>40</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 8pt &quot;Roman&quot;;</string>
+    </property>
+    <property name="text">
+     <string>◼</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pauseB1">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>280</y>
+      <width>40</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 8pt &quot;Roman&quot;;
+font: 8pt &quot;Franklin Gothic Heavy&quot;;</string>
+    </property>
+    <property name="text">
+     <string>II</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="stopB2">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>280</y>
+      <width>40</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 8pt &quot;Roman&quot;;</string>
+    </property>
+    <property name="text">
+     <string>◼</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pauseB2">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>280</y>
+      <width>40</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 8pt &quot;Roman&quot;;
+font: 8pt &quot;Franklin Gothic Heavy&quot;;</string>
+    </property>
+    <property name="text">
+     <string>II</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="playB2">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>280</y>
+      <width>40</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: black;</string>
+    </property>
+    <property name="text">
+     <string>►</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="stopB3">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>550</y>
+      <width>40</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 8pt &quot;Roman&quot;;</string>
+    </property>
+    <property name="text">
+     <string>◼</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pauseB3">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>550</y>
+      <width>40</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 8pt &quot;Roman&quot;;
+font: 8pt &quot;Franklin Gothic Heavy&quot;;</string>
+    </property>
+    <property name="text">
+     <string>II</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="playB3">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>550</y>
+      <width>40</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: black;</string>
+    </property>
+    <property name="text">
+     <string>►</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="bLabel">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>800</width>
+      <height>600</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QWidget#bLabel{
+	background-image: url(:/newPrefix/background1.png);
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="back">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>552</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 9pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(171, 171, 171);
+border-radius:5px;</string>
+    </property>
+    <property name="text">
+     <string>Back</string>
+    </property>
+   </widget>
+   <zorder>bLabel</zorder>
+   <zorder>crankRocker</zorder>
+   <zorder>doubleCrank</zorder>
+   <zorder>doubleRocker</zorder>
+   <zorder>label_2</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label_1</zorder>
+   <zorder>playB1</zorder>
+   <zorder>stopB1</zorder>
+   <zorder>pauseB1</zorder>
+   <zorder>stopB2</zorder>
+   <zorder>pauseB2</zorder>
+   <zorder>playB2</zorder>
+   <zorder>stopB3</zorder>
+   <zorder>pauseB3</zorder>
+   <zorder>playB3</zorder>
+   <zorder>back</zorder>
+  </widget>
+ </widget>
+ <resources>
+  <include location="MainBackgroung.qrc"/>
+  <include location="bg1.qrc"/>
+ </resources>
+ <connections/>
+</ui>

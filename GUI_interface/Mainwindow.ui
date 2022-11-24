@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>764</width>
+    <height>568</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>764</width>
+      <height>572</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <widget class="QLabel" name="Title">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>40</y>
+       <width>181</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 22pt &quot;Impact&quot;;
+color:rgb(255, 255, 255)</string>
+     </property>
+     <property name="text">
+      <string>Kinematics</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Design">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>170</y>
+       <width>291</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 14pt &quot;MS Reference Sans Serif&quot;;
+color:white;</string>
+     </property>
+     <property name="text">
+      <string>Design your mechanism</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Simulations">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>360</y>
+       <width>291</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 14pt &quot;MS Reference Sans Serif&quot;;
+color:white;</string>
+     </property>
+     <property name="text">
+      <string>Mechanisms Simulations</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="DesignButton">
+     <property name="geometry">
+      <rect>
+       <x>292</x>
+       <y>250</y>
+       <width>181</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 10pt;
+</string>
+     </property>
+     <property name="text">
+      <string>Start Designing</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="VisualizeButton">
+     <property name="geometry">
+      <rect>
+       <x>291</x>
+       <y>440</y>
+       <width>181</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 10pt;
+</string>
+     </property>
+     <property name="text">
+      <string>Visualize</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>764</width>
+       <height>572</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QWidget#label{
+border-image: url(:/Bg/background.png);
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <zorder>label</zorder>
+    <zorder>Title</zorder>
+    <zorder>Design</zorder>
+    <zorder>Simulations</zorder>
+    <zorder>DesignButton</zorder>
+    <zorder>VisualizeButton</zorder>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="MainBackgroung.qrc"/>
+ </resources>
+ <connections/>
+</ui>
